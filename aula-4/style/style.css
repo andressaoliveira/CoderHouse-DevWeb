@@ -1,0 +1,50 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    /*font-family: 'Hurricane';*/
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+}
+
+a {
+    text-decoration: line-through;
+}
+
+ul {
+    list-style-type: upper-roman;
+}
+
+.noticia {
+    background-color: lightgray;
+}
+
+.noticia__titulo {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.noticia--destacada {
+    background-color: dimgray;
+}
+
+.noticia__titulo--uppercase {
+    text-transform: uppercase;
+}
+
+.menu {
+    background-color: aqua;
+}
+
+.menu__item {
+    color: brown;
+}
+
+.menu__item--destaque {
+    color: red;
+}
+
+.menu__item--negrito {
+    font-weight: 800;
+}

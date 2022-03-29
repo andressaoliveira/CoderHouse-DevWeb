@@ -1,0 +1,51 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    font-family: 'Hurricane';
+    line-height: 2;
+}
+
+a {
+    text-decoration: line-through;
+}
+
+section article {
+    background-color: rgba(21, 214, 140, 0.849);
+}
+
+h1 {
+    color: blue;
+}
+
+li {
+    color: green;
+}
+
+#grupo1 {
+    background-color: yellow;
+}
+
+.grupo2 {
+    background-color: green;
+}
+
+div {
+    color: red;
+}
+
+p {
+    color: blue !important;
+    font-style: italic;
+    font-weight: 800;
+}
+
+p {
+    color: black;
+}
+
+ul {
+    list-style-type: upper-roman;
+}
