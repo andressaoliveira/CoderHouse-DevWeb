@@ -48,3 +48,58 @@ ul {
 .menu__item--negrito {
     font-weight: 800;
 }
+
+.bloco {
+    background-color: beige;
+    width: 400px;
+    height: 200px;
+}
+
+.css {
+    border: solid 10px red;
+    padding: 26px;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+    width: 370px;
+    height: 400px;
+    overflow: auto;
+    margin: 51px;
+}
+
+p {
+    /*é um elemento em bloco que converto em linha*/
+    display: inline;
+    background-color: yellow;
+}
+
+span {
+    /*é um elemento em linha que converto em bloco*/
+    display: block;
+    background-color: grey;
+}
+
+.menu {
+    list-style: none;
+    font-size: 0/* truque para usar inline-block*/
+}
+
+.menu__item {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    font-size: 14px
+}
+
+.submenu {
+    position: absolute;
+    display: none;
+}
+
+.submenu__item {
+    display: block;
+}
+
+.menu__item:hover .submenu {
+    display: block;
+}
