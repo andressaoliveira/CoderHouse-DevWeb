@@ -1,0 +1,27 @@
+.pai {
+    justify-items: stretch;
+    /* start | end | center | stretch */
+    align-items: stretch;
+    /* start | end | center | stretch */
+    display: grid;
+    width: 95%;
+    height: 500px;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    grid-template-rows: 100px 100px;
+    grid-row-gap: 10px;
+    justify-content: stretch;
+    align-content: stretch;
+}
+
+.pai div {
+    border: solid 1px;
+    font-size: 21px;
+    padding: 5px;
+    background-color: yellow;
+}
+
+.filho {
+    justify-self: start;
+    align-self: center;
+}

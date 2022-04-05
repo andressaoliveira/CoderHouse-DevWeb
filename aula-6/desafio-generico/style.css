@@ -1,0 +1,49 @@
+#grid {
+    display: grid;
+    grid-template-areas: "header header" "nav conteudo" "nav rodape";
+    height: 95vh;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 4fr;
+    justify-content: stretch;
+    align-content: stretch;
+    justify-items: stretch;
+    /* grid-gap: 10px; */
+    font-size: 20px;
+}
+
+.container {
+    border: 1px solid black;
+}
+
+header {
+    grid-area: header;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: plum;
+}
+
+nav {
+    grid-area: nav;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+section {
+    grid-area: conteudo;
+    display: grid;
+    justify-content: center;
+    align-items: start;
+    background-color: antiquewhite;
+}
+
+footer {
+    grid-area: rodape;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
