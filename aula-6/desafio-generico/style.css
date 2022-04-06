@@ -1,14 +1,19 @@
-#grid {
+body {
     display: grid;
     grid-template-areas: "header header" "nav conteudo" "nav rodape";
-    height: 700px;
+    height: 600px;
     grid-template-rows: 1fr 5fr 1fr;
     grid-template-columns: 1fr 4fr;
-    /* grid-gap: 10px; */
+    grid-gap: 10px;
+    background-color: red;
 }
 
 .container {
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
 }
 
 header {
