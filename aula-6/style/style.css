@@ -1,27 +1,64 @@
-.pai {
-    justify-items: stretch;
-    /* start | end | center | stretch */
-    align-items: stretch;
-    /* start | end | center | stretch */
+#grade {
     display: grid;
-    width: 95%;
-    height: 500px;
-    grid-template-columns: auto auto;
-    grid-column-gap: 10px;
-    grid-template-rows: 100px 100px;
-    grid-row-gap: 10px;
-    justify-content: stretch;
-    align-content: stretch;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-areas: "nav header header" "nav produtos publicidade" "nav servicos publicidade" "rodape rodape none";
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
 }
 
-.pai div {
-    border: solid 1px;
-    font-size: 21px;
-    padding: 5px;
-    background-color: yellow;
+.border {
+    border: 1px solid black;
+}
+
+.item {
+    border: 1px solid black;
+}
+
+header {
+    grid-area: header;
+}
+
+#produtos {
+    grid-area: produtos;
+}
+
+#servicos {
+    grid-area: servicos;
+}
+
+nav {
+    grid-area: nav;
+}
+
+aside {
+    grid-area: publicidade;
+}
+
+footer {
+    grid-area: rodape;
+}
+
+
+/* Segundo Grid */
+
+.pai {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100px 100px;
+    border: 2px solid red;
+    width: 95%;
+    height: 500px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    /* start | end | center | stretch */
+    justify-items: stretch;
+    align-items: stretch;
+    /* start | end | center | stretch | space-around | space-between | space-evenly; */
+    justify-content: space-evenly;
+    align-content: end;
 }
 
 .filho {
-    justify-self: start;
-    align-self: center;
+    border: 1px solid black;
 }
