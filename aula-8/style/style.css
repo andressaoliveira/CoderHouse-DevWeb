@@ -1,0 +1,140 @@
+#gradiente,
+#transform,
+#transform-distorcer,
+#transition,
+section {
+    display: flex;
+    border-bottom: 3px solid black;
+}
+
+#gradiente div,
+#transform div,
+#transform-distorcer div {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin: 30px;
+}
+
+#gradiente-1 {
+    background-image: linear-gradient(red, yellow);
+}
+
+#gradiente-2 {
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+#gradiente-3 {
+    background-image: linear-gradient(to bottom, red, yellow);
+}
+
+#gradiente-4 {
+    background-image: linear-gradient(to left, red, yellow);
+}
+
+#gradiente-5 {
+    background-image: linear-gradient(to top, red, yellow);
+}
+
+#transform-1 {
+    transform: translate(10px, 20px);
+}
+
+#transform-2 {
+    transform: rotate(30deg);
+}
+
+#transform-3 {
+    transform: rotateX(70deg);
+}
+
+#transform-4 {
+    transform: rotateY(70deg);
+}
+
+#transform-5 {
+    transform: rotateZ(90deg);
+}
+
+#transform-6 {
+    transform: scale(2, 1);
+}
+
+#transform-7 {
+    transform: skew(20deg, 10deg);
+}
+
+#transform-8 {
+    transform: skewX(20deg);
+}
+
+#transform-9 {
+    transform: skewY(20deg);
+}
+
+#transition-1 {
+    width: 100px;
+    height: 100px;
+    transition: all 2s;
+    background-color: blueviolet;
+}
+
+#transition-1:hover {
+    height: 150px;
+    width: 150px;
+    background-color: violet;
+}
+
+input {
+    width: 100px;
+    height: 100px;
+    transition: all 2s;
+}
+
+input:focus {
+    width: 200px;
+    font-size: 24px;
+}
+
+#vermelho {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 0, 0, 0.9);
+    border: solid 1px;
+}
+
+#vermelho:hover {
+    padding: 20px;
+    transform: skewY(25deg)
+}
+
+@keyframes um_efeito {
+    0% {
+        width: 100px;
+    }
+    25% {
+        width: 300px;
+    }
+    50% {
+        width: 200px;
+        background-color: red;
+    }
+    75% {
+        width: 300px;
+    }
+    100% {
+        width: 100px;
+        background-color: green;
+    }
+}
+
+section {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: um_efeito;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
