@@ -17,23 +17,23 @@ section {
 }
 
 #gradiente-1 {
-    background-image: linear-gradient(red, yellow);
+    background-image: linear-gradient(blue, pink);
 }
 
 #gradiente-2 {
-    background-image: linear-gradient(to right, red, yellow);
+    background-image: linear-gradient(to right, blue, pink);
 }
 
 #gradiente-3 {
-    background-image: linear-gradient(to bottom, red, yellow);
+    background-image: linear-gradient(to bottom, blue, pink);
 }
 
 #gradiente-4 {
-    background-image: linear-gradient(to left, red, yellow);
+    background-image: linear-gradient(to left, blue, pink);
 }
 
 #gradiente-5 {
-    background-image: linear-gradient(to top, red, yellow);
+    background-image: linear-gradient(to top, blue, pink);
 }
 
 #transform-1 {
@@ -56,6 +56,11 @@ section {
     transform: rotateZ(90deg);
 }
 
+body {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
 #transform-6 {
     transform: scale(2, 1);
 }
@@ -76,7 +81,7 @@ section {
     width: 100px;
     height: 100px;
     transition: all 2s;
-    background-color: blueviolet;
+    background-color: blue;
 }
 
 #transition-1:hover {
