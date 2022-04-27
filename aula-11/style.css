@@ -1,0 +1,24 @@
+.negrito {
+    font-weight: 800;
+}
+
+.sublinhado {
+    text-decoration: underline;
+    color: red;
+}
+
+.azul {
+    color: aquamarine;
+}
+
+img {
+    width: inherit;
+}
+
+.centralizar {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
