@@ -1,0 +1,67 @@
+@media (min-width: 700px) and (orientation: landscape) {
+    .meu-estilo {
+        text-align: center;
+    }
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+a:link {
+    text-decoration: none;
+    color: red;
+}
+
+a:visited {
+    color: #999999;
+}
+
+a:hover {
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:active {
+    background-color: yellow;
+    color: black;
+}
+
+div:not(.pai) {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.pai div:nth-child(3) {
+    font-weight: bold;
+    color: orange;
+}
+
+.pai div:nth-child(2) {
+    font-weight: bold;
+    color: green;
+}
+
+.pai div:first-child {
+    color: red;
+}
