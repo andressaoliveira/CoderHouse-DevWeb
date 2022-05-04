@@ -1,0 +1,23 @@
+.arquivo {
+  background-color: yellow;
+}
+
+.container {
+  background-color: orange;
+}
+.container h1 {
+  color: pink;
+}
+.container h2 {
+  color: white;
+}
+
+.aula {
+  background-color: orange;
+  color: orange;
+}
+.aula:hover {
+  background-color: aqua;
+}
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,18 @@
+@import "base";
+.container {
+    background-color: $cor-do-fundo;
+    h1 {
+        color: pink;
+    }
+    h2 {
+        color: white;
+    }
+}
+
+.aula {
+    background-color: $cor-do-fundo;
+    color: $cor-do-fundo;
+    &:hover {
+        background-color: aqua;
+    }
+}
