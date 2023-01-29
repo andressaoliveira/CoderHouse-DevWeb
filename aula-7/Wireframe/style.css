@@ -63,6 +63,7 @@ footer img {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 100px auto 200px;
     }
+
     footer {
         flex-direction: row;
         justify-content: space-around;
